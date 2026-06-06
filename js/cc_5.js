@@ -5,17 +5,17 @@ const employees = [
         hoursWorked: 38
     },
     {
-        name: "Sarah Johnson",
+        name: "Jane Johnson",
         hourlyRate: 25,
         hoursWorked: 45
     },
     {
-        name: "Michael Brown",
+        name: "Michael Moreno",
         hourlyRate: 18,
         hoursWorked: 50
     },
     {
-        name: "Emily Davis",
+        name: "Davis Strum",
         hourlyRate: 22,
         hoursWorked: 42
     }
@@ -62,6 +62,7 @@ function processPayroll(employee) {
     };
 }
 
+//check calcs
 console.log(calculateBasePay(20, 45));
 console.log(calculateOvertimePay(20, 45));
 console.log(calculateTaxes(950));
