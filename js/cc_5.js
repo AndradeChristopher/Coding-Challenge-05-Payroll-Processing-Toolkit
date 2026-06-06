@@ -61,3 +61,12 @@ function processPayroll(employee) {
         netPay: netPay.toFixed(2)
     };
 }
+
+console.log(calculateBasePay(20, 45));
+console.log(calculateOvertimePay(20, 45));
+console.log(calculateTaxes(950));
+
+//for each employee
+employees.forEach(employee => {
+    console.log(processPayroll(employee));
+});
